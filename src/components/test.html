@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div className='grid sm:grid-cols-2 grid-cols-1 mt-[3rem] gap-[2rem]'>
+    <article className="flex flex-row">
+        <div className='w-[100%] block object-cover'>
+            <img src={star}>
+        </div>
+        <div>
+            <h4>Reliabilty</h4>
+            <p>24-hour turnaround time</p>
+        </div>
+    </article>
+    <article className="flex flex-row">
+        <div>
+            <img src={clock}>
+        </div>
+        <div>
+            <h4>Shortest Lead Time</h4>
+            <p>We find Candidate at the fastest pace</p>
+        </div>
+    </article>
+    <article className="flex flex-row">
+        <div>
+            <img src={plane}>
+        </div>
+        <div>
+            <h4>Result - Driven</h4>
+            <p>100% Client retention</p>
+        </div>
+    </article>
+    <article className="flex flex-row">
+        <div>
+            <img src={phone}>
+        </div>
+        <div>
+            <h4>Most Competitive Rate</h4>
+            <p>We are the most affordable consulting and recruitment agency across Africa</p>
+        </div>
+    </article>
+   </div> 
+
+<!---- original code ---->
+   <div className="flex sm:flex-row flex-col justify-center items-center sm:gap-10 gap-2">
+    <div className="flex flex-col items-start sm:h-[250px] gap-10 m-4">
+      <div className="flex items-center gap-2">
+        <div>
+          <img src={star}/>
+        </div>
+        <div>
+          <h2 className="font-poppins font-semibold xs:text-[20px] text-[24px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Reliability</h2>
+          <p className={`${styles.paragraph} text-[18px] text-white`}>24-hour turnaround time</p>
+        </div>
+      </div>
+
+      <div className="flex items-center gap-2">
+        <div>
+          <img src={clock}/>
+        </div>
+        <div>
+          <h2 className="font-poppins font-semibold xs:text-[20px] text-[24px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Shortest Lead Time</h2>
+          <p className={`${styles.paragraph} text-[18px] text-white`}>We find Candidate at the fastest pace</p>
+        </div>
+      </div>
+    </div>
+
+    <div className="flex flex-col items-start sm:h-[250px] gap-10 m-4">
+      <div className="flex items-center gap-2">
+        <div>
+          <img src={phone}/>
+        </div>
+        <div>
+          <h2 className="font-poppins font-semibold xs:text-[20px] text-[24px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Result - Driven</h2>
+          <p className={`${styles.paragraph} text-[18px] text-white`}>100% Client retention</p>
+        </div>
+      </div>
+
+      <div className="flex items-center gap-2">
+        <div>
+          <img src={plane}/>
+        </div>
+        <div>
+          <h2 className="font-poppins font-semibold xs:text-[20px] text-[24px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Most Competitive Rates</h2>
+          <p className={`${styles.paragraph} text-[18px] w-[350px] text-white`}>We are the most affordable consulting and recruitment agency across Africa</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
