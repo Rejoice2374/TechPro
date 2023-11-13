@@ -14,7 +14,7 @@ const Welcome = () =>  (
     </div>
 
     <div className={`${layout.sectionImg} md:-mr-20 mr-0`}>
-        <img src={Welcome1}/>
+        <img src={Welcome1} alt=''/>
     </div>
   </section>
 );

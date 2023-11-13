@@ -1,4 +1,4 @@
-import Logo from "../assets/logo1.png";
+import Logo from "../assets/Logo1.png";
 import { UilTwitter, UilFacebookF, UilYoutube, UilInstagram } from "@iconscout/react-unicons";
 
 const Footer = () => (

@@ -1,4 +1,4 @@
-import styles from "../style";
+
 import avatar1 from "../assets/Avatar1.png";
 
 const Testimonial = () => (
@@ -10,7 +10,7 @@ const Testimonial = () => (
           <div className="sm:p-[2rem] p-[1rem]">
             <div className="flex md:flex-row flex-col gap-4">
               <div className="block cover">
-                <img src={avatar1} className="max-w-[6rem] h-[6rem]"/>
+                <img src={avatar1} className="max-w-[6rem] h-[6rem]" alt=""/>
               </div>
               <div className="text-justify">
                 <p className={`font-roboto font-normal md:text-[20px] text-[12px] md:leading-[30.8px] leading-[24.8px]`}>TechproCraft`s IT recruitment plan has revolutionized our hiring process. Their comprehensive understanding of our industry and skillful candidate evolution allowed us to attract top IT talent. We are now equipped with a skilled team that drives innovation and fuels our business growth.</p>

@@ -66,7 +66,7 @@ const Projects = () => (
       </div>
 
       <div className="md:w-[740px] w-[620px] -mr-[6rem] sm:block hidden object-cover">
-        <img src={Project}/>
+        <img src={Project} alt=""/>
       </div>
     </div>
     </section>

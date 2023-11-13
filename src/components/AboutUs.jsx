@@ -14,7 +14,7 @@ const AboutUs = () => (
       <div className='grid sm:grid-cols-2 grid-cols-1 ss:m-[1.5rem] m-[1rem] sm:gap-[4rem] gap-[2rem]'>
         <article className="flex flex-row gap-2">
           <div className='w-[32px] h-[32px] block object-cover'>
-              <img src={star} />
+              <img src={star}  alt=""/>
           </div>
           <div>
               <h4 className="font-nunito font-semibold xs:text-[20px] text-[16px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Reliabilty</h4>
@@ -23,7 +23,7 @@ const AboutUs = () => (
         </article>
         <article className="flex flex-row gap-2">
           <div className='w-[32px] h-[32px] block object-cover'>
-              <img src={clock} />
+              <img src={clock}  alt=""/>
           </div>
           <div>
               <h4 className="font-nunito font-semibold xs:text-[20px] text-[16px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Shortest Lead Time</h4>
@@ -32,7 +32,7 @@ const AboutUs = () => (
         </article>
         <article className="flex flex-row gap-2">
           <div className='w-[32px] h-[32px] block object-cover'>
-              <img src={plane} />
+              <img src={plane}  alt=""/>
           </div>
           <div>
               <h4 className="font-nunito font-semibold xs:text-[20px] text-[16px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Result - Driven</h4>
@@ -41,7 +41,7 @@ const AboutUs = () => (
         </article>
         <article className="flex flex-row gap-2">
           <div className='w-[32px] h-[32px] block object-cover'>
-              <img src={phone} />
+              <img src={phone}  alt=""/>
           </div>
           <div>
               <h4 className="font-nunito font-semibold xs:text-[20px] text-[16px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Most Competitive Rate</h4>
@@ -52,7 +52,7 @@ const AboutUs = () => (
     </div>
 
     <div className={`md:flex hidden md:ml-10 ml-0 md:mt-0 mt-10 cover`}>
-        <img src={why}/>
+        <img src={why} alt=""/>
     </div>
   </section>
 );

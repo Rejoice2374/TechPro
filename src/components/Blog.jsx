@@ -1,9 +1,9 @@
 import blog1 from "../assets/blog1.png";
 import blog2 from "../assets/blog2.png";
 import blog3 from "../assets/blog3.png";
-import avatar1 from "../assets/avatar1.png";
-import avatar2 from "../assets/avatar2.png";
-import avatar3 from "../assets/avatar3.png";
+import avatar1 from "../assets/Avatar1.png";
+import avatar2 from "../assets/Avatar2.png";
+import avatar3 from "../assets/Avatar3.png";
 import { UilClock } from "@iconscout/react-unicons";
 import { UilAngleRightB } from "@iconscout/react-unicons";
 
@@ -14,7 +14,7 @@ const Blog = () => (
       <div className='grid md:grid-cols-3 xs:grid-cols-2 grid-cols-1 mt-[2rem] gap-[2rem]'>
         <article className='bg-primary text-center rounded-xl hover:drop-shadow-lg'>
           <div className='w-[100%] block object-cover'>
-            <img src={blog1} />
+            <img src={blog1}  alt=""/>
           </div>
           <div className='px-[1rem] py-[0.5rem'>
             <h4 className="font-nunito font-semibold text-left
@@ -26,7 +26,7 @@ const Blog = () => (
           <div className=" flex flex-row px-[20px] md:gap-[95px] py-4  self-stretch">
             <div className="flex items-start gap-2.5 w-[240px]">
               <div className="block cover">
-                <img src={avatar1} className="max-w-[32px] h-[32px]"/>
+                <img src={avatar1} className="max-w-[32px] h-[32px]" alt=""/>
               </div>
               <div className="flex flex-col text-left">
                 <h4 className="font-outfit font-semibold md:text-[16px] text-[10px]">Ilyn Ryan</h4>
@@ -43,7 +43,7 @@ const Blog = () => (
 
         <article className='bg-primary text-center rounded-xl hover:drop-shadow-lg'>
           <div className='w-[100%] block object-cover'>
-            <img src={blog2} />
+            <img src={blog2}  alt=""/>
           </div>
           <div className='px-[1rem] py-[0.5rem'>
             <h4 className="font-nunito font-semibold text-left
@@ -54,7 +54,7 @@ const Blog = () => (
           <div className=" flex flex-row px-[20px] md:gap-[95px] py-4  self-stretch">
             <div className="flex items-start gap-2.5 w-[240px]">
               <div className="block cover">
-                <img src={avatar2} className="max-w-[32px] h-[32px]"/>
+                <img src={avatar2} className="max-w-[32px] h-[32px]" alt=""/>
               </div>
               <div className="flex flex-col text-left">
                 <h4 className="font-outfit font-semibold md:text-[16px] text-[10px]">Max Andrews</h4>
@@ -71,7 +71,7 @@ const Blog = () => (
 
         <article className='bg-primary text-center rounded-xl hover:drop-shadow-lg'>
           <div className='w-[100%] block object-cover'>
-            <img src={blog3} />
+            <img src={blog3}  alt=""/>
           </div>
           <div className='px-[1rem] py-[0.5rem'>
             <h4 className="font-nunito font-semibold text-left
@@ -82,7 +82,7 @@ const Blog = () => (
           <div className=" flex flex-row px-[20px] md:gap-[95px] py-4  self-stretch">
             <div className="flex items-start gap-2.5 w-[240px]">
               <div className="block cover">
-                <img src={avatar3} className="max-w-[32px] h-[32px]"/>
+                <img src={avatar3} className="max-w-[32px] h-[32px]" alt=""/>
               </div>
               <div className="flex flex-col text-left">
                 <h4 className="font-outfit font-semibold md:text-[16px] text-[10px]">Emily Weaver</h4>

@@ -1,9 +1,9 @@
-import feature1 from "../assets/feature1.png";
-import feature2 from "../assets/feature2.png";
-import feature3 from "../assets/feature3.png";
-import feature4 from "../assets/feature4.png";
-import feature5 from "../assets/feature5.png";
-import feature6 from "../assets/feature6.png";
+import feature2 from "../assets/Feature2.png";
+import feature3 from "../assets/Feature3.png";
+import feature4 from "../assets/Feature4.png";
+import feature5 from "../assets/Feature5.png";
+import feature6 from "../assets/Feature6.png";
+import feature1 from "../assets/Feature1.png";
 import { UilAngleRightB } from "@iconscout/react-unicons";
 
 const Jobs = () => (
@@ -13,7 +13,7 @@ const Jobs = () => (
       <div className='grid ss:grid-cols-2 grid-cols-1 ss:mt-[3rem] mt-[1rem] gap-[2rem]'>
         <article className='bg-primary text-center rounded-xl hover:drop-shadow-lg'>
           <div className='w-[100%] block object-cover'>
-            <img src={feature1} />
+            <img src={feature1} alt=""/>
           </div>
           <div className='p-[2rem]'>
             <h4 className="font-poppins font-semibold xs:text-[1.3rem] text-[1rem] leading-[2rem]">IT Consultants</h4>
@@ -23,7 +23,7 @@ const Jobs = () => (
 
         <article className='bg-primary text-center rounded-xl hover:drop-shadow-lg'>
           <div className='w-[100%] block object-cover'>
-            <img src={feature2} />
+            <img src={feature2} alt=""/>
           </div>
           <div className='p-[2rem]'>
             <h4 className="font-poppins font-semibold xs:text-[1.3rem] text-[1rem] leading-[2rem]">IT Consultants</h4>
@@ -33,7 +33,7 @@ const Jobs = () => (
 
         <article className='bg-primary text-center rounded-xl hover:drop-shadow-lg'>
           <div className='w-[100%] block object-cover'>
-            <img src={feature3} />
+            <img src={feature3} alt=""/>
           </div>
           <div className='p-[2rem]'>
             <h4 className="font-poppins font-semibold xs:text-[1.3rem] text-[1rem] leading-[2rem]">IT Consultants</h4>
@@ -43,7 +43,7 @@ const Jobs = () => (
 
         <article className='bg-primary text-center rounded-xl hover:drop-shadow-lg'>
           <div className='w-[100%] block object-cover'>
-            <img src={feature4} />
+            <img src={feature4} alt=""/>
           </div>
           <div className='p-[2rem]'>
             <h4 className="font-poppins font-semibold xs:text-[1.3rem] text-[1rem] leading-[2rem]">IT Consultants</h4>
@@ -53,7 +53,7 @@ const Jobs = () => (
 
         <article className='bg-primary text-center rounded-xl hover:drop-shadow-lg'>
           <div className='w-[100%] block object-cover'>
-            <img src={feature5} />
+            <img src={feature5} alt=""/>
           </div>
           <div className='p-[2rem]'>
             <h4 className="font-poppins font-semibold xs:text-[1.3rem] text-[1rem] leading-[2rem]">IT Consultants</h4>
@@ -63,7 +63,7 @@ const Jobs = () => (
 
         <article className='bg-primary text-center rounded-xl hover:drop-shadow-lg'>
           <div className='w-[100%] block object-cover'>
-            <img src={feature6} />
+            <img src={feature6} alt=""/>
           </div>
           <div className='p-[2rem]'>
             <h4 className="font-poppins font-semibold xs:text-[1.3rem] text-[1rem] leading-[2rem]">IT Consultants</h4>
