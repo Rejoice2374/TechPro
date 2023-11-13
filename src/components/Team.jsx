@@ -14,14 +14,16 @@ const team = () => (
           <div className="cover items-center h-fit w-fit">
             <img src={team1} alt=""/>
           </div>
-          <div className="text-center">
-              <h4 className="font-nunito font-semibold ss:text-[24px] text-[16px] text-blue-800">Adebayo Kwame</h4>
-              <p className="font-nunito font-medium ss:text-[16px] text-[10px]">CEO</p>
-          </div>
-          <div className="team__socials">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><UilInstagram /></a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><UilTwitter /></a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><UilFacebookF /></a>
+          <div className="flex flex-row gap-[2rem]">
+              <div className="flex flex-col">
+                <h4 className="font-nunito font-semibold ss:text-[24px] text-[16px] text-blue-800">Adebayo Kwame</h4>
+                <p className="font-nunito font-medium ss:text-[16px] text-[10px]">CEO</p>
+              </div>
+              <div className="team__socials flex flex-row items-end">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><UilInstagram /></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><UilTwitter /></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><UilFacebookF /></a>
+              </div>
           </div>
         </article>
 
@@ -29,14 +31,16 @@ const team = () => (
           <div className="cover items-center h-fit w-fit">
             <img src={team2} alt=""/>
           </div>
-          <div className="text-center">
-              <h4 className="font-nunito font-semibold ss:text-[24px] text-[16px] text-blue-800">Grace Bais</h4>
-              <p className="font-nunito font-medium ss:text-[16px] text-[10px]">CTO</p>
-          </div>
-          <div className="team__socials">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><UilInstagram /></a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><UilTwitter /></a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><UilFacebookF /></a>
+          <div  className="flex flex-row gap-[2rem]">
+              <div className="flex flex-col">
+                <h4 className="font-nunito font-semibold ss:text-[24px] text-[16px] text-blue-800">Grace Bais</h4>
+                <p className="font-nunito font-medium ss:text-[16px] text-[10px]">CTO</p>
+              </div>
+              <div className="team__socials flex flex-row items-end">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><UilInstagram /></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><UilTwitter /></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><UilFacebookF /></a>
+              </div>
           </div>
         </article>
 
@@ -44,14 +48,16 @@ const team = () => (
           <div className="cover items-center h-fit w-fit">
             <img src={team3} alt=""/>
           </div>
-          <div className="text-center">
-              <h4 className="font-nunito font-semibold ss:text-[24px] text-[16px] text-blue-800">Josh Brown</h4>
-              <p className="font-nunito font-medium ss:text-[16px] text-[10px]">Product Designer</p>
-          </div>
-          <div className="team__socials">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><UilInstagram /></a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><UilTwitter /></a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><UilFacebookF /></a>
+          <div  className="flex flex-row gap-[2rem]">
+              <div className="flex flex-col">
+                <h4 className="font-nunito font-semibold ss:text-[24px] text-[16px] text-blue-800">Josh Brown</h4>
+                <p className="font-nunito font-medium ss:text-[16px] text-[10px]">Product Designer</p>
+              </div>
+              <div className="team__socials flex flex-row items-end">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><UilInstagram /></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><UilTwitter /></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><UilFacebookF /></a>
+              </div>
           </div>
         </article>
 
@@ -59,15 +65,17 @@ const team = () => (
           <div className="cover items-center h-fit w-fit">
             <img src={team4} alt=""/>
           </div>
-          <div className="text-center">
-              <h4 className="font-nunito font-semibold ss:text-[24px] text-[16px] text-blue-800">Elizabeth Queen</h4>
-              <p className="font-nunito font-medium ss:text-[16px] text-[10px]">Social manager</p>
+          <div  className="flex flex-row gap-[2rem]">
+              <div className="flex flex-col">
+                <h4 className="font-nunito font-semibold ss:text-[24px] text-[16px] text-blue-800">Elizabeth Queen</h4>
+                <p className="font-nunito font-medium ss:text-[16px] text-[10px]">Social manager</p></div>
+              <div className="team__socials flex flex-row items-end">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><UilInstagram /></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><UilTwitter /></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><UilFacebookF /></a>
+              </div>
           </div>
-          <div className="team__socials">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><UilInstagram /></a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><UilTwitter /></a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><UilFacebookF /></a>
-          </div>
+          
         </article>
       </div>
 
