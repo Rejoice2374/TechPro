@@ -13,7 +13,7 @@ const Testimonial = () => (
                 <img src={avatar1} className="max-w-[6rem] h-[6rem]" alt=""/>
               </div>
               <div className="text-justify">
-                <p className={`font-roboto font-normal md:text-[20px] text-[12px] md:leading-[30.8px] leading-[24.8px]`}>TechproCraft`s IT recruitment plan has revolutionized our hiring process. Their comprehensive understanding of our industry and skillful candidate evolution allowed us to attract top IT talent. We are now equipped with a skilled team that drives innovation and fuels our business growth.</p>
+                <p className={`font-roboto font-normal sd:text-[20px] text-[12px] md:leading-[30.8px] leading-[24.8px]`}>TechproCraft`s IT recruitment plan has revolutionized our hiring process. Their comprehensive understanding of our industry and skillful candidate evolution allowed us to attract top IT talent. We are now equipped with a skilled team that drives innovation and fuels our business growth.</p>
               </div>
             </div>
             <div className=" flex flex-col items-end ">

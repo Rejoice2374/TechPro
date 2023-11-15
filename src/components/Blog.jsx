@@ -18,8 +18,8 @@ const Blog = () => (
           </div>
           <div className='px-[1rem] py-[0.5rem'>
             <h4 className="font-nunito font-semibold text-left
-             md:text-[22px] text-[11px] md:leading-[36px] leading-[24px]">The power of cloud and optimization</h4>
-            <p className='font-nunito m-[1.2rem 0 2rem] text-left md:text-[16px] text-[10px]'>In today`s digital landscape, businesses are increasely leveraging cloud technologies to enhance their operations. In this blog post, we will explore the transformative journey of E-commerce Empire, a thriving online retail company that partnered with <b>TechProCraft</b> to migrate their infrastructure to the cloud and optimize their systems for unprecedented growth and scalability</p>
+             md:text-[22px] sd:text-[18px] text-[11px] md:leading-[36px] leading-[24px]">The power of cloud and optimization</h4>
+            <p className='font-nunito m-[1.2rem 0 2rem] text-left md:text-[16px] sd:text-[12px] text-[10px]'>In today`s digital landscape, businesses are increasely leveraging cloud technologies to enhance their operations. In this blog post, we will explore the transformative journey of E-commerce Empire, a thriving online retail company that partnered with <b>TechProCraft</b> to migrate their infrastructure to the cloud and optimize their systems for unprecedented growth and scalability</p>
           </div>
 
           
@@ -29,14 +29,14 @@ const Blog = () => (
                 <img src={avatar1} className="max-w-[32px] h-[32px]" alt=""/>
               </div>
               <div className="flex flex-col text-left">
-                <h4 className="font-outfit font-semibold md:text-[16px] text-[10px]">Ilyn Ryan</h4>
-                <small className={`font-outfit md:text-[12px] text-[8px]`}>Cloud solution Architect @ Techprocraft</small>
+                <h4 className="font-outfit font-semibold sd:text-[16px] text-[10px]">Ilyn Ryan</h4>
+                <small className={`font-outfit sd:text-[12px] text-[8px]`}>Cloud solution Architect @ Techprocraft</small>
               </div>
             </div>
 
             <div className=" flex gap-1 items-center w-[120px] justify-end">
               <UilClock className="w-[12px]"/>
-              <small className={`font-outfit md:text-[12px] text-[8px]`}>10 Mins Read</small>
+              <small className={`font-outfit md:text-[12px] sd:text-[10px] text-[8px]`}>10 Mins Read</small>
             </div>
           </div>
         </article>
@@ -47,8 +47,8 @@ const Blog = () => (
           </div>
           <div className='px-[1rem] py-[0.5rem'>
             <h4 className="font-nunito font-semibold text-left
-             md:text-[24px] text-[11px] md:leading-[36px] leading-[24px]">Neo-Brutalism: Raw Aesthetics</h4>
-            <p className='font-nunito m-[1.2rem 0 2rem] text-left md:text-[16px] text-[10px]'>In today`s digital landscape, businesses are increasely leveraging cloud technologies to enhance their operations. In this blog post, we will explore the transformative journey of E-commerce Empire, a thriving online retail company that partnered with <b>TechProCraft</b> to migrate their infrastructure to the cloud and optimize their systems for unprecedented growth and scalability</p>
+             md:text-[24px] sd:text-[18px] text-[11px] md:leading-[36px] leading-[24px]">Neo-Brutalism: Raw Aesthetics</h4>
+            <p className='font-nunito m-[1.2rem 0 2rem] text-left md:text-[16px] sd:text-[12px] text-[10px]'>In today`s digital landscape, businesses are increasely leveraging cloud technologies to enhance their operations. In this blog post, we will explore the transformative journey of E-commerce Empire, a thriving online retail company that partnered with <b>TechProCraft</b> to migrate their infrastructure to the cloud and optimize their systems for unprecedented growth and scalability</p>
           </div>
           
           <div className=" flex flex-row px-[20px] justify-between py-4  self-stretch">
@@ -57,14 +57,14 @@ const Blog = () => (
                 <img src={avatar2} className="max-w-[32px] h-[32px]" alt=""/>
               </div>
               <div className="flex flex-col text-left">
-                <h4 className="font-outfit font-semibold md:text-[16px] text-[10px]">Max Andrews</h4>
-                <small className={`font-outfit md:text-[12px] text-[8px]`}>Visual/Interactive Designer @ Techprocraft</small>
+                <h4 className="font-outfit font-semibold sd:text-[16px] text-[10px]">Max Andrews</h4>
+                <small className={`font-outfit sd:text-[12px] text-[8px]`}>Visual/Interactive Designer @ Techprocraft</small>
               </div>
             </div>
 
             <div className=" flex gap-1 items-center w-[120px] justify-end">
               <UilClock className="w-[12px]"/>
-              <small className={`font-outfit md:text-[12px] text-[8px] `}>15 Mins Read</small>
+              <small className={`font-outfit md:text-[12px] sd:text-[10px] text-[8px] `}>15 Mins Read</small>
             </div>
           </div>
         </article>
@@ -75,8 +75,8 @@ const Blog = () => (
           </div>
           <div className='px-[1rem] py-[0.5rem'>
             <h4 className="font-nunito font-semibold text-left
-             md:text-[24px] text-[11px] md:leading-[36px] leading-[24px]">Advancements of the Andriod OS</h4>
-            <p className='font-nunito m-[1.2rem 0 2rem] text-left md:text-[16px] text-[10px]'>In today`s digital landscape, businesses are increasely leveraging cloud technologies to enhance their operations. In this blog post, we will explore the transformative journey of E-commerce Empire, a thriving online retail company that partnered with <b>TechProCraft</b> to migrate their infrastructure to the cloud and optimize their systems for unprecedented growth and scalability</p>
+             md:text-[24px] sd:text-[18px] text-[11px] md:leading-[36px] leading-[24px]">Advancements of the Andriod OS</h4>
+            <p className='font-nunito m-[1.2rem 0 2rem] text-left md:text-[16px] sd:text-[12px] text-[10px]'>In today`s digital landscape, businesses are increasely leveraging cloud technologies to enhance their operations. In this blog post, we will explore the transformative journey of E-commerce Empire, a thriving online retail company that partnered with <b>TechProCraft</b> to migrate their infrastructure to the cloud and optimize their systems for unprecedented growth and scalability</p>
           </div>
 
           <div className=" flex flex-row px-[20px] justify-between py-4  self-stretch">
@@ -85,14 +85,14 @@ const Blog = () => (
                 <img src={avatar3} className="max-w-[32px] h-[32px]" alt=""/>
               </div>
               <div className="flex flex-col text-left">
-                <h4 className="font-outfit font-semibold md:text-[16px] text-[10px]">Emily Weaver</h4>
-                <small className={`font-outfit md:text-[12px] text-[8px]`}>Android OS Developer @ Techprocraft</small>
+                <h4 className="font-outfit font-semibold sd:text-[16px] text-[10px]">Emily Weaver</h4>
+                <small className={`font-outfit sd:text-[12px] text-[8px]`}>Android OS Developer @ Techprocraft</small>
               </div>
             </div>
 
             <div className=" flex gap-1 items-center w-[120px] justify-end">
               <UilClock className="w-[12px]"/>
-              <small className={`font-outfit md:text-[12px] text-[8px] ,`}>10 Mins Read</small>
+              <small className={`font-outfit md:text-[12px] sd:text-[10px] text-[8px] ,`}>10 Mins Read</small>
             </div>
           </div>
         </article>
