@@ -23,7 +23,7 @@ const Blog = () => (
           </div>
 
           
-          <div className=" flex flex-row px-[20px] md:gap-[95px] py-4  self-stretch">
+          <div className=" flex flex-row px-[20px] justify-between py-4  self-stretch">
             <div className="flex items-start gap-2.5 w-[240px]">
               <div className="block cover">
                 <img src={avatar1} className="max-w-[32px] h-[32px]" alt=""/>
@@ -51,7 +51,7 @@ const Blog = () => (
             <p className='font-nunito m-[1.2rem 0 2rem] text-left md:text-[16px] text-[10px]'>In today`s digital landscape, businesses are increasely leveraging cloud technologies to enhance their operations. In this blog post, we will explore the transformative journey of E-commerce Empire, a thriving online retail company that partnered with <b>TechProCraft</b> to migrate their infrastructure to the cloud and optimize their systems for unprecedented growth and scalability</p>
           </div>
           
-          <div className=" flex flex-row px-[20px] md:gap-[95px] py-4  self-stretch">
+          <div className=" flex flex-row px-[20px] justify-between py-4  self-stretch">
             <div className="flex items-start gap-2.5 w-[240px]">
               <div className="block cover">
                 <img src={avatar2} className="max-w-[32px] h-[32px]" alt=""/>
@@ -64,7 +64,7 @@ const Blog = () => (
 
             <div className=" flex gap-1 items-center w-[120px] justify-end">
               <UilClock className="w-[12px]"/>
-              <small className={`font-outfit md:text-[12px] text-[8px] md:leading-[30.8px]`}>15 Mins Read</small>
+              <small className={`font-outfit md:text-[12px] text-[8px] `}>15 Mins Read</small>
             </div>
           </div>
         </article>
@@ -79,7 +79,7 @@ const Blog = () => (
             <p className='font-nunito m-[1.2rem 0 2rem] text-left md:text-[16px] text-[10px]'>In today`s digital landscape, businesses are increasely leveraging cloud technologies to enhance their operations. In this blog post, we will explore the transformative journey of E-commerce Empire, a thriving online retail company that partnered with <b>TechProCraft</b> to migrate their infrastructure to the cloud and optimize their systems for unprecedented growth and scalability</p>
           </div>
 
-          <div className=" flex flex-row px-[20px] md:gap-[95px] py-4  self-stretch">
+          <div className=" flex flex-row px-[20px] justify-between py-4  self-stretch">
             <div className="flex items-start gap-2.5 w-[240px]">
               <div className="block cover">
                 <img src={avatar3} className="max-w-[32px] h-[32px]" alt=""/>
@@ -92,7 +92,7 @@ const Blog = () => (
 
             <div className=" flex gap-1 items-center w-[120px] justify-end">
               <UilClock className="w-[12px]"/>
-              <small className={`font-outfit md:text-[12px] text-[8px] ,md:leading-[30.8px]`}>10 Mins Read</small>
+              <small className={`font-outfit md:text-[12px] text-[8px] ,`}>10 Mins Read</small>
             </div>
           </div>
         </article>

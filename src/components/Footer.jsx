@@ -3,7 +3,7 @@ import { UilTwitter, UilFacebookF, UilYoutube, UilInstagram } from "@iconscout/r
 
 const Footer = () => (
   <footer className="flex flex-col bg-secondary w-full md:mt-[16rem] ss:mt-[12rem] sm:pt-0 pt-[2rem] relative sm:justify-start justify-center">
-    <div className="flex flex-row ss:absolute ss:top-[-40%] ss:left-[10%] self-center bg-blue-900 ss:w-[80%] sm:h-[240px] h-[180px] ss:p-[4rem] p-[1rem] items-center ss:rounded-[2rem] ss:gap-[30%] gap-[20%]">
+    <div className="flex flex-row ss:absolute ss:top-[-40%] ss:left-[10%] self-center bg-blue-900 ss:w-[80%] sm:h-[240px] h-[180px] ss:p-[4rem] p-[1rem] items-center ss:rounded-[2rem] justify-between">
       <h2 className="font-manrope font-normal text-white md:text-[48px] sm:text-[36px] xs:text-[28px] text-[20px] sm:w-[30%]">Want to Get in Touch ?</h2>
       <div className="sm:w-[40%] space-y-4">
         <p className="font-nunito font-normal sm:text-[16px] text-[10px] text-white">Let`s Connect and Collaborate, Reach Out to Us Today You`ll be glad you do so</p>
@@ -14,7 +14,7 @@ const Footer = () => (
     </div>
 
 
-    <div className="flex ss:flex-row flex-col md:px-[8rem] px-[2rem] md:mt-[8rem] ss:mt-[3rem] mt-[1rem] ss:items-center md:gap-[12rem] sm:gap-[4rem] gap-[1rem]">
+    <div className="flex ss:flex-row flex-col md:px-[8rem] px-[2rem] sd:mt-[8rem] ss:mt-[3rem] mt-[1rem] ss:items-center md:gap-[12rem] sm:gap-[4rem] gap-[1rem]">
       <article className="flex flex-col justify-center items-center">
         <div className="Logo">
           <img src={Logo} alt="el feno" className="w-auto h-[84px]"/>

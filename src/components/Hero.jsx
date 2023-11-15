@@ -2,12 +2,12 @@ import styles from '../style';
 import GetStarted from './GetStarted';
 
 const Hero = () => (
-  <section className={`flex flex-col relative ${styles.paddingY}`}>
+  <section className={`flex flex-col ${styles.paddingY}`}>
     <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px:16 px-6`}>
       <div className="flex flex-col justify-between items-center md:w-[1024px] ss:w-[720px] xs:w-[420px] w-[280px] p-2 gap-2">
-        <h1 className='font-poppins font-semibold ss:text-[56px] xs:text-[36px] text:[24px] text-blue-400'>
+        <h1 className='font-poppins font-semibold md:text-[56px] ss:text-[36px] text:[24px] text-blue-400'>
           Your trusted IT Consulting Partner: <br />
-          <span className="ss:text-[56px] xs:text-[36px] text:[24px] text-white">Empower Your Digital Journey With Us</span>
+          <span className="md:text-[56px] ss:text-[36px] text:[24px] text-white">Empower Your Digital Journey With Us</span>
         </h1>
       </div>
 
